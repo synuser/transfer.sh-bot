@@ -14,3 +14,4 @@ Telegram bot to upload files to transfer.sh remotely
  
 Visit [this](https://my.telegram.org/) link to get API ID and API HASH.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
