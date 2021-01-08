@@ -20,7 +20,7 @@ bot = TelegramClient('Uploader bot', api_id, api_hash).start(bot_token=bot_token
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
     """Send a message when the command /start is issued."""
-    await event.respond('Hi!\nSent any file or direct download link to upload and get the transfer.sh download link')
+    await event.respond('Hi, <b>{message.from_user.first_name}</b>.\nSent any file or direct download link to upload and get the transfer.sh download link \nDeveloper:@synuser')
     raise events.StopPropagation
 
 @bot.on(events.NewMessage)
@@ -48,7 +48,7 @@ async def echo(update):
             await msg.edit("Download finish!\n\n**Now uploading...**")
             download_link, final_date, size = await send_to_transfersh_async(file_path, msg)
             name = os.path.basename(file_path)
-            await msg.edit(f"**Name: **`{name}`\n**Size:** `{size}`\n**Link:** {download_link}")
+            await msg.edit(f"**Name: **`{name}`\n**Size:** `{size}`\n**Link:** {download_link} \n© @Synfiletourlbot")
         except Exception as e:
             print(e)
             await msg.edit(f"Uploading Failed\n\n**Error:** {e}")
