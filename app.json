@@ -1,13 +1,13 @@
 {
-    "name": "Transfer.sh_Bot",
+    "name": "Transf",
     "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
     "keywords": [
         "telegram",
-        "link",
-        "transfer.sh"
+        "lin",
+        "transfer"
     ],
-    "website": "https://github.com/TG-AI/transfer.sh-bot",
-    "repository": "https://github.com/TG-AI/transfer.sh-bot",
+    "website": "https://github.com/synuser/transfer.sh-bot",
+    "repository": "https://github.com/synuser/transfer.sh-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",
