@@ -1,4 +1,4 @@
 telethon
 asyncio
-aiohttp[speedups]>=3.5.4
-cryptg>=0.2.post0
+aiohttp
+cryptg
