@@ -1,4 +1,4 @@
 telethon
 asyncio
 aiohttp
-tgcrypto
+cryptg
